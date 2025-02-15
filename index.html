@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar Services</title>
+    <title>Home - Sree Maruthi Technologies Solar Solutions</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -13,31 +13,124 @@
         <h1>Welcome to Sree Maruthi Technologies Solar Solutions</h1>
         <nav>
             <ul style="display: flex; justify-content: space-around; list-style: none; padding: 0;">
-                <li><a href="index.html" style="text-decoration: none; padding: 10px; color: #000; ">Home</a></li>
+                <li><a href="index.html" style="text-decoration: none; padding: 10px; color: #000; font-weight: bold; background-color: #333; color: #fff;">Home</a></li>
                 <li><a href="products.html" style="text-decoration: none; padding: 10px; color: #000;">Products</a></li>
-                <li><a href="services.html"
-                        style="text-decoration: none; padding: 10px; color: #000;   font-weight: bold; background-color: #333; color: #fff;">Services</a>
-                </li>
+                <li><a href="services.html" style="text-decoration: none; padding: 10px; color: #000;">Services</a></li>
                 <li><a href="contact.html" style="text-decoration: none; padding: 10px; color: #000;">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>Our Services</h2>
-            <p>We offer a wide range of solar services to meet your needs:</p>
-            <ul>
-                <p style="padding: 5px 0;">Solar Heaters Installation and Maintenance</p>
-                <p style="padding: 5px 0;">Solar Lamps Installation and Maintenance</p>
-                <p style="padding: 5px 0;">Solar Panels Installation and Maintenance</p>
-                <p style="padding: 5px 0;">Solar Energy Consultation</p>
-                <p style="padding: 5px 0;">Solar System Design</p>
-                <p style="padding: 5px 0;">Solar Battery Storage Solutions</p>
-                <p style="padding: 5px 0;">Solar System Design</p>
-                <p style="padding: 5px 0;">Solar Battery Storage Solutions</p>
-            </ul>
+            <div class="slider-container" style="display: flex; justify-content: space-between; margin: 20px;">
+                <div class="slider-text" style="width: 48%; overflow: hidden;">
+                    <div class="slider-content">
+                        <h2>Why Solar?</h2>
+                        <p>Harness the Power of the Sun for a Brighter Future</p>
+                    </div>
+                    <div class="slider-content">
+                        <h3>Why Choose Solar Energy?</h3>
+                        <h4>Eco-Friendly and Sustainable</h4>
+                        <p>Solar energy is one of the cleanest sources of energy available. Unlike fossil fuels, which
+                            release harmful pollutants and greenhouse gases into the atmosphere, solar power generates
+                            electricity without any negative environmental impact. By choosing solar energy, you are
+                            contributing to a greener planet and helping to reduce air pollution and combat climate
+                            change.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Abundant and Renewable</h4>
+                        <p>The sun is an inexhaustible source of energy. Every day, it provides more than enough energy
+                            to power the entire world. Solar panels capture this abundant energy and convert it into
+                            electricity that can be used to power homes, businesses, and even entire communities. This
+                            renewable energy source ensures a sustainable future without depleting natural resources.
+                        </p>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Energy Independence</h4>
+                        <p>By installing solar panels, you can achieve greater energy independence. Generating your own
+                            electricity means you are less reliant on the grid and less vulnerable to power outages and
+                            price fluctuations. With solar power, you have control over your energy production and
+                            consumption, giving you peace of mind and security.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cost Savings</h4>
+                        <p>Switching to solar energy can lead to significant cost savings over time. While the initial
+                            investment in solar panels may seem high, the long-term benefits far outweigh the costs.
+                            Solar panels require minimal maintenance and have a lifespan of 25 years or more. By
+                            generating your own electricity, you can reduce or even eliminate your monthly energy bills,
+                            resulting in substantial savings.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Technological Advancements</h4>
+                        <p>Advancements in solar technology have made it more efficient and affordable than ever before.
+                            Modern solar panels are designed to maximize energy production, even in low-light
+                            conditions. Additionally, the cost of solar panels has decreased significantly in recent
+                            years, making it an accessible option for a wide range of consumers.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Supporting Local Economies</h4>
+                        <p>Investing in solar energy also supports local economies. The solar industry creates jobs in
+                            manufacturing, installation, and maintenance. By choosing solar, you are not only benefiting
+                            your own household but also contributing to the growth of a sustainable energy sector.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h3>Join the Solar Revolution</h3>
+                        <p>At Solar Solutions, we offer a range of high-quality solar products designed to meet your
+                            energy needs. From solar lamps and heaters to wall alarms and more, our products are built
+                            to provide reliable and efficient performance. Join the solar revolution and take the first
+                            step towards a sustainable and energy-independent future.</p>
+                    </div>
+                    <div class="slider-content">
+                        <h3>Contact Us Today</h3>
+                        <p>Ready to make the switch to solar? Contact us today to learn more about our products and
+                            services. Our team of experts is here to guide you through the process and help you find the
+                            best solar solutions for your needs. Together, we can build a brighter, cleaner future.</p>
+                    </div>
+                </div>
+                <div class="slider-images" style="width: 48%; overflow: hidden;">
+                    <img class="slider-content" src="images/solar1.jpg" alt="Solar Products"
+                        style="width: 100%; height: 55vh;">
+                    <img class="slider-content" src="images/solar2.jpg" alt="Solar Lights"
+                        style="width: 100%; height: 55vh;">
+                    <img class="slider-content" src="images/solar3.jpg" alt="Solar Heaters"
+                        style="width: 100%; height: 55vh;">
+                    <img class="slider-content" src="images/solar4.jpg" alt="Solar Fencing"
+                        style="width: 100%; height: 55vh;">
+                </div>
+            </div>
         </section>
     </main>
+    <script>
+        const imageSlides = document.querySelectorAll('.slider-images .slider-content');
+        const textSlides = document.querySelectorAll('.slider-text .slider-content');
+        let imageIndex = 0;
+        let textIndex = 0;
+
+        function showSlide(slides, index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function nextSlide(slides, index) {
+            return (index + 1) % slides.length;
+        }
+
+        function showImageSlide() {
+            showSlide(imageSlides, imageIndex);
+            imageIndex = nextSlide(imageSlides, imageIndex);
+        }
+
+        function showTextSlide() {
+            showSlide(textSlides, textIndex);
+            textIndex = nextSlide(textSlides, textIndex);
+        }
+
+        setInterval(showImageSlide, 3000);
+        setInterval(showTextSlide, 3000);
+        showImageSlide();
+        showTextSlide();
+    </script>
     <footer>
         <p>&copy; <span id="year"></span> Sree Maruthi Technologies Solar Solutions</p>
         <script>
